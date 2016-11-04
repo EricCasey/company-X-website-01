@@ -1,0 +1,24 @@
+.nav {
+  height: 100px;
+  background: #F0FFFF;
+}
+
+p {
+  float: right;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-size-adjust: 150%;
+}
+
+img {
+  float: left;
+}
+#logo {
+  height: 80%;
+  margin-left: 7%;
+  margin-top: 14px;
+
+}
+#navLinks {
+  margin-right: 50px;
+}
