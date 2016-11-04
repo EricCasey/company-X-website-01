@@ -1,24 +1,29 @@
 .nav {
   height: 100px;
-  background: #F0FFFF;
+  background: white;
+  position:fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 19999;
+  border-bottom: #F0FFFF solid 1px;
+  padding: 5px;
 }
 
-p {
+a {
   float: right;
-  margin-top: 40px;
-  margin-left: 10px;
-  font-size-adjust: 150%;
+  margin-top: 29px;
+  margin-left: 15px;
+  font-size: 180%;
 }
-
 img {
   float: left;
 }
 #logo {
-  height: 80%;
+  height: 70%;
   margin-left: 7%;
   margin-top: 14px;
 
 }
 #navLinks {
-  margin-right: 50px;
+  margin-right: 100px;
 }

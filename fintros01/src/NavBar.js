@@ -12,9 +12,9 @@ class NavBar extends Component {
       id="logo"
       />
       <div id="navLinks">
-      <p>Invite</p>
-      <p>Hire</p>
-      <p>Signup</p>
+      <a>Invite - </a>
+      <a>Hire -</a>
+      <a>- Signup -</a>
       </div>
       </div>
     );

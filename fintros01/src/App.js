@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import NavBar from './NavBar.js';
 import VideoHeader from './VideoHeader.js';
+import Footer from './Footer.js'
+import HowItWorks from './HowItWorks.js'
+require('bootstrap')
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +15,7 @@ class App extends Component {
     }
   };
   };
-  
+
   componentDidMount() {
 
   };
@@ -25,6 +28,10 @@ class App extends Component {
         <VideoHeader
         calltoaction={this.state.calltoaction.visibility}
         />
+        <HowItWorks />
+        {/* <Call2 />
+        <Referrals /> */}
+        <Footer/>
       </div>
     );
   }
