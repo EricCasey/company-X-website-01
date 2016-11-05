@@ -6,3 +6,9 @@
 .how-area h2 {
   margin-top: 44px;
 }
+#quote1 {
+  padding: 50px;
+  text-align:justify;
+  padding-left: 0px;
+  padding-right: 80px
+}

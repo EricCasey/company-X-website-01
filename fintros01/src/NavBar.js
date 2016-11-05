@@ -15,7 +15,7 @@ class NavBar extends Component {
       <img id="canadaEH" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/1024px-Flag_of_Canada.svg.png"
       role="presentation"/>
       </div>
-      <a>Fintro&trade; - </a>
+      <a>Fintro - </a>
       <a>Hire -</a>
       <a className="signup-flipper">- Signup -</a>
       </div>

@@ -1,13 +1,13 @@
 .nav {
   height: 70px;
-  background: url('http://www.easyfreepatterns.com/patterns/3/-light-blue-hand-drawn-pattern-waves-background-seamless-3963.jpg');
-  background-size: 200px;
   position:fixed;
+  background-color: white;
   top: 0px;
   width: 100%;
   z-index: 19999;
   border-bottom: black solid 2px;
-  padding: 5px;
+  padding: 18px;
+  overflow: hidden;
 }
 
 a {
@@ -20,19 +20,19 @@ img {
   float: left;
 }
 #logo {
-  height: 70%;
-  margin-left: 7%;
-  margin-top: 0.5%;
+  /*height: 70%;*/
+  margin-left: 8%;
+  /*margin-top: 15px;*/
 
 }
 #navLinks {
-  margin-right: 100px;
-  margin-top: 0.5%;
+  /*margin-right: 100px;
+  margin-top: 0.5%;*/
 }
 #canadaEH {
-  width: 70px;
+  width: 58px;
   float: right;
-  /*margin-top: 28px;*/
+  /*margin-top: -5px;*/
   margin-left: 14px;
 }
 
@@ -40,10 +40,23 @@ img {
   height: 10px;
 }
 .nav{
-  background-color:#ccc;
+  /*background-color:#ccc;*/
    -webkit-transition: all 0.4s ease;
    transition: all 0.4s ease;
 }
 .small {
-  border: solid red 1px;
+  border: solid black 1px;
+  /*font-size-adjust: 40%;*/
+  padding: 5px;
+  background: url('http://www.easyfreepatterns.com/patterns/3/-light-blue-hand-drawn-pattern-waves-background-seamless-3963.jpg');
+  background-size: 200px;
+
+}
+.shrunk {
+  color: red;
+
+}
+.shrink {
+  margin-top: 6px;
+  height: 70%;
 }

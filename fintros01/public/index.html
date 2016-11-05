@@ -53,6 +53,8 @@
                     {
                         $('#header_nav').data('size','small');
                         $('#header_nav').toggleClass('small');
+                        $('#navLinks').toggleClass('shrunk');
+                        $('#logo').toggleClass('shrink');
                         $('#header_nav').stop().animate({
                             height:'40px'
                         },6);
@@ -64,6 +66,8 @@
                     {
                         $('#header_nav').data('size','big');
                         $('#header_nav').toggleClass('small');
+                        $('#navLinks').toggleClass('shrunk');
+                        $('#logo').toggleClass('shrink');
                         $('#header_nav').stop().animate({
                             height:'70px'
                         },6);

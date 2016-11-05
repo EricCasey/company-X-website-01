@@ -24,18 +24,18 @@ class CallToAction extends Component {
             </div>
             <div className="back" id="signupForm">
               <div id="progress">
-              progrsss bar
+              progress bar
               </div>
               <form>
                 <div className="col-md-6">
-                left
+                left area
                 </div>
                 <div className="col-md-6">
-                right
+                right area
                 </div>
               </form>
               <div className="signup-flipper">
-              exit
+              x
               </div>
             </div>
           </div>

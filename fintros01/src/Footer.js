@@ -24,7 +24,7 @@ class Footer extends Component {
           </h3><ul>
             <a><li>FAQ</li></a>
             <a><li>Careers</li></a>
-            <a><li>Contract</li></a>
+            <a><li>Contact</li></a>
           </ul>
         </div>
         <div className="col-md-3">
@@ -51,7 +51,7 @@ class Footer extends Component {
             Fintros Newsletter
           </h3>
           <ul>
-          <a><li>Form</li></a>
+          <a><li><input placeholder="Email"></input></li></a>
           </ul>
         </div>
         <div className="col-md-7">
@@ -59,7 +59,7 @@ class Footer extends Component {
           Contact
         </h3>
         <ul>
-        <a><li>link</li></a>
+        <a><li>testest@test.test</li></a>
         </ul>
         </div>
       </div>
