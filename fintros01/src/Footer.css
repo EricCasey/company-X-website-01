@@ -1,4 +1,25 @@
 .foot-area {
   border: solid black 1px;
   height: 300px;
+  /*text-align: left;*/
+  background: url('http://www.easyfreepatterns.com/patterns/3/-light-blue-hand-drawn-pattern-waves-background-seamless-3963.jpg');
+  background-size: 200px;
+}
+.foot-area a {
+  font-size: 100%;
+  margin: none;
+}
+.foot-area ul {
+  height: 80px;
+}
+.foot-area li {
+  list-style: none;
+  font-size: 100%;
+  margin: none;
+  float: left;
+  line-height: 0px;
+  max-height: 10px;
+}
+.foot-area h3 {
+  border-bottom: 1px solid black;
 }

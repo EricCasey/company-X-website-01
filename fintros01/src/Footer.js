@@ -1,9 +1,8 @@
 import React, {
   Component
 } from 'react';
-import './App.css';
-import './VidHead.css'
-import './Footer.css'
+// import './App.css';
+import './Footer.css';
 
 class Footer extends Component {
   render() {
@@ -13,37 +12,55 @@ class Footer extends Component {
           <h3>
             Signup
           </h3>
-          <a>link</a>
+          <ul>
+            <a><li>Candidates</li></a>
+            <a><li>Employers</li></a>
+            <a><li>Fintro Friends</li></a>
+          </ul>
         </div>
         <div className="col-md-3">
           <h3>
             About
-          </h3>
-          <a>link</a>
+          </h3><ul>
+            <a><li>FAQ</li></a>
+            <a><li>Careers</li></a>
+            <a><li>Contract</li></a>
+          </ul>
         </div>
         <div className="col-md-3">
           <h3>
             Legal
           </h3>
-          <a>link</a>
+          <ul>
+            <a><li>Privacy</li></a>
+            <a><li>Terms & Conditions</li></a>
+          </ul>
         </div>
         <div className="col-md-3">
           <h3>
             Social
           </h3>
-          <a>link</a>
+          <ul>
+          <a><li>Facebook</li></a>
+          <a><li>Instagram</li></a>
+          <a><li>Twitter</li></a>
+          </ul>
         </div>
         <div className="col-md-5">
           <h3>
             Fintros Newsletter
           </h3>
-          <a>Form</a>
+          <ul>
+          <a><li>Form</li></a>
+          </ul>
         </div>
         <div className="col-md-7">
         <h3>
           Contact
         </h3>
-        <a>link</a>
+        <ul>
+        <a><li>link</li></a>
+        </ul>
         </div>
       </div>
     );

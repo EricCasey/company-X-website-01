@@ -1,11 +1,10 @@
-import React, {
-  Component
-} from 'react';
-import './App.css';
-import './VidHead.css'
-import './CallToAction.css'
+import React, { Component } from 'react';
+import './App.css';;
+import './VidHead.css';
+import './CallToAction.css';
 
 class CallToAction extends Component {
+
   render() {
     return (
       <div id="action-area" >
@@ -24,7 +23,9 @@ class CallToAction extends Component {
               <div className="signup-flipper" id="front-flip">Signup</div>
             </div>
             <div className="back" id="signupForm">
-              <div id="progress">progress bar</div>
+              <div id="progress">
+              progrsss bar
+              </div>
               <form>
                 <div className="col-md-6">
                 left

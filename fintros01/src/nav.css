@@ -1,17 +1,18 @@
 .nav {
-  height: 100px;
-  background: white;
+  height: 70px;
+  background: url('http://www.easyfreepatterns.com/patterns/3/-light-blue-hand-drawn-pattern-waves-background-seamless-3963.jpg');
+  background-size: 200px;
   position:fixed;
   top: 0px;
   width: 100%;
   z-index: 19999;
-  border-bottom: #F0FFFF solid 1px;
+  border-bottom: black solid 2px;
   padding: 5px;
 }
 
 a {
   float: right;
-  margin-top: 29px;
+  /*margin-top: 29px;*/
   margin-left: 15px;
   font-size: 180%;
 }
@@ -21,9 +22,25 @@ img {
 #logo {
   height: 70%;
   margin-left: 7%;
-  margin-top: 14px;
+  margin-top: 0.5%;
 
 }
 #navLinks {
   margin-right: 100px;
+  margin-top: 0.5%;
+}
+#canadaEH {
+  width: 70px;
+  float: right;
+  /*margin-top: 28px;*/
+  margin-left: 14px;
+}
+
+.shrink {
+  height: 10px;
+}
+.nav{
+  background-color:#ccc;
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
 }

@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import NavBar from './NavBar.js';
 import VideoHeader from './VideoHeader.js';
-import Footer from './Footer.js'
-import HowItWorks from './HowItWorks.js'
+import Footer from './Footer.js';
+import HowItWorks from './HowItWorks.js';
+import Employer from './Employer.js';
+import ReferralsAndMore from './ReferralsAndMore.js'
+
 require('bootstrap')
 
 class App extends Component {
@@ -20,7 +23,6 @@ class App extends Component {
 
   };
 
-
   render() {
     return (
       <div className="App">
@@ -29,8 +31,8 @@ class App extends Component {
         calltoaction={this.state.calltoaction.visibility}
         />
         <HowItWorks />
-        {/* <Call2 />
-        <Referrals /> */}
+        <Employer />
+        <ReferralsAndMore />
         <Footer/>
       </div>
     );

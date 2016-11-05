@@ -1,0 +1,22 @@
+.employer-area {
+  height: 300px;
+  width: 100%;
+  border: solid black 1px;
+  background: url('http://www.easyfreepatterns.com/patterns/3/-light-blue-hand-drawn-pattern-waves-background-seamless-3963.jpg');
+  background-size: 200px;
+}
+.employer-area h2 {
+  margin-top: 68px;
+}
+#employ-button {
+  padding: 3px;
+  border: 2px solid black;
+  width: 100px;
+  margin: 24px auto;
+}
+#employ-button:hover {
+  padding: 3px;
+  border: 2px solid white;
+  color: white;
+  background: black;
+}

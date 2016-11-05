@@ -42,6 +42,33 @@
     <script>
         $(document).ready(function() {
 
+          $(function(){
+                $('#header_nav').data('size','big');
+            });
+
+            $(window).scroll(function(){
+                if($(document).scrollTop() > 200)
+                {
+                    if($('#header_nav').data('size') == 'big')
+                    {
+                        $('#header_nav').data('size','small');
+                        $('#header_nav').stop().animate({
+                            height:'40px'
+                        },6);
+                    }
+                }
+                else
+                {
+                    if($('#header_nav').data('size') == 'small')
+                    {
+                        $('#header_nav').data('size','big');
+                        $('#header_nav').stop().animate({
+                            height:'70px'
+                        },6);
+                    }
+                }
+            });
+
           $('.signup-flipper').on('click', function () {
             $('.card').toggleClass('flipped');
           });
@@ -118,6 +145,7 @@
                 $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
             });
+
         }
     </script>
 </body>

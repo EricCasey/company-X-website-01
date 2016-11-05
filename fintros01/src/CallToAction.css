@@ -63,14 +63,6 @@ ul {
   overflow: hidden;
 }
 
-#front-flip {
-  margin-top: 20px;
-  border: 1px solid #F0FFFF;
-}
-#front-flip:hover {
-  border: 1px solid lightblue;
-}
-
 .back{
    transform: rotateY(180deg);
  }
@@ -90,4 +82,21 @@ form {
   position: absolute;
   top: 0px;
   height: 40px;
+}
+
+.progress-bar .progress-bar-striped .active {
+  width: 45%;
+}
+
+#front-flip {
+  padding: 3px;
+  border: 2px solid black;
+  width: 100px;
+  margin: 24px auto;
+}
+#front-flip:hover {
+  padding: 3px;
+  border: 2px solid white;
+  color: white;
+  background: black;
 }

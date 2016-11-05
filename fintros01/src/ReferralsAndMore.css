@@ -1,0 +1,21 @@
+.refmo-area {
+  height: 220px;
+  width: 100%;
+  border: solid black 1px;
+}
+.refmo-area h2 {
+  margin-top: 40px;
+}
+
+.refmo-button {
+  padding: 3px;
+  border: 2px solid black;
+  width: 100px;
+  margin: 24px auto;
+}
+.refmo-button:hover {
+  padding: 3px;
+  border: 2px solid white;
+  color: white;
+  background: black;
+}
