@@ -52,6 +52,7 @@
                     if($('#header_nav').data('size') == 'big')
                     {
                         $('#header_nav').data('size','small');
+                        $('#header_nav').toggleClass('small');
                         $('#header_nav').stop().animate({
                             height:'40px'
                         },6);
@@ -62,6 +63,7 @@
                     if($('#header_nav').data('size') == 'small')
                     {
                         $('#header_nav').data('size','big');
+                        $('#header_nav').toggleClass('small');
                         $('#header_nav').stop().animate({
                             height:'70px'
                         },6);
